@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+*.log
+*.pot
+*.mo
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Django specific
+db.sqlite3
+/media
+/staticfiles
+/static/
+
+# Migrations
+*/migrations/*
+
+# If you are using Django's secret key or other secrets in settings
+settings.py
+settings_local.py
+
+# If you're using macOS
+.DS_Store
+
+# If you're using Linux
+*.swp
+
+# If you're using Windows
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pipenv
+Pipfile.lock
+
+# Docker files
+*.log
+docker-compose*.yaml
+Dockerfile*
+__pycache__/
+
+# Node modules (if using)
+node_modules/
